@@ -39,7 +39,7 @@
 
 
 # Parameter with return type
-# a = 20 , b = 10
+# a = 20 , b = 30
 def adder(a:int, b:int=10) -> int: 
     c = a + b
     
