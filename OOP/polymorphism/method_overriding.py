@@ -1,22 +1,16 @@
-
 class A:
-    g = 10
-
     def abc(self):
         print("Hello")
 
-class B:
-
+class B(A):
     def abc(self):
         print("Hello World")
 
-class C(B, A):
 
-    pass
+a = A()
+b = B()
+
+# a.abc()
+b.abc()
 
 
-c = C()
-print(C.mro())
-
-# orm
-# mro
